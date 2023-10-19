@@ -1777,7 +1777,7 @@ var calendarHeatmap = {
         var coordinates = d3.mouse(container);
         var x = coordinates[0];
         var y = coordinates[1];
-        console.log("x=" + x + " y=" + y);
+        // console.log("x=" + x + " y=" + y);
         x = x + container.offsetLeft;
         y = y + container.offsetTop;
         return {x: x, y: y};
